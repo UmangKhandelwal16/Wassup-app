@@ -1,0 +1,57 @@
+.chatPage {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer {
+    background-color: aliceblue;
+    height: 60%;
+    width: 50%
+}
+
+.header {
+    background-color: crimson;
+    height: 15%
+}
+
+.chatBox {
+    border: 0.2vmax solid black;
+    height: 70%;
+    box-sizing: border-box;
+}
+
+.inputBox {
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatInput {
+    width: 80%;
+    border: none;
+    padding: 2vmax;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    outline: none;
+    font-size: 1.2vmax;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sendBtn{
+    background-color: crimson;
+    color: aliceblue;
+    border: none;
+    width: 20%;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.sendBtn:hover{
+    background-color: rgb(139, 42, 61);
+}
